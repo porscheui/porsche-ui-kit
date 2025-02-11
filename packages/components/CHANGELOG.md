@@ -14,6 +14,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0), 
 
 ### [Unreleased]
 
+#### Fixed
+
+- `aria` prop now supports a colon inside of a value, e.g. `aria="{ 'aria-label': 'Always remember: yes you can!' }"`
+  ([#3680](https://github.com/porsche-design-system/porsche-design-system/pull/3680))
+
 #### Changed
 
 - `Popover`: gets rendered on `#top-layer` which enables it to be shown correctly even when used e.g. within a scroll
